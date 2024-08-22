@@ -89,11 +89,32 @@ public class PrimitiveDataTypes {
             -	has :
                 - a minimum value of '\u0000' or 0,
                 - a maximum value of '\uffff' or 65,535 inclusive.
-                - a default value of '\u0000'.
+                - a default value of '\u0000' (Empty Space).
         */
-        char charVar1, charVar2 = 'M'; // charVar1 ==> '\000'
+        char charVar1, charVar2 = 'M'; // charVar1 ==> '\000' (Empty Space)
+        // char charVar3 = 3;
+        char charVar3 = '\u0003';
+        // char charVar3 = '\u0003';
+        char charVar4 = 50;
+        char poundDecimal = 163;
+        char poundUnicode = '\u00A3';
+        char smileyUnicode = '\u263A';
+        char newLine = '\n';
+        char backSlash = '\\';
 
         // System.out.println(charVar1); // Variable 'charVar1' might not have been initialized
         System.out.println(charVar2);
+        System.out.println(charVar3);
+        System.out.println(charVar4);
+        System.out.println(poundDecimal);
+        System.out.println(poundUnicode);
+        System.out.println(smileyUnicode);
+        System.out.println(newLine);
+        System.out.println(backSlash);
+        System.out.println(newLine + backSlash); // 102
+        System.out.println(Character.isLowerCase(charVar2));
+        char m = Character.toLowerCase(charVar2);
+        System.out.println(m);
+        System.out.println(Character.isDigit(m));
     }
 }
