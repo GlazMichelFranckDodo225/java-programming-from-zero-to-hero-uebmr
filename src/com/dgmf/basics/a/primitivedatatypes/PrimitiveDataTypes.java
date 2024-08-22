@@ -92,26 +92,27 @@ public class PrimitiveDataTypes {
                 - a default value of '\u0000' (Empty Space).
         */
         char charVar1, charVar2 = 'M'; // charVar1 ==> '\000' (Empty Space)
+        // System.out.println(charVar1); // Variable 'charVar1' might not have been initialized
+        System.out.println(charVar2);
         // char charVar3 = 3;
         char charVar3 = '\u0003';
         // char charVar3 = '\u0003';
-        char charVar4 = 50;
-        char poundDecimal = 163;
-        char poundUnicode = '\u00A3';
-        char smileyUnicode = '\u263A';
-        char newLine = '\n';
-        char backSlash = '\\';
-
-        // System.out.println(charVar1); // Variable 'charVar1' might not have been initialized
-        System.out.println(charVar2);
         System.out.println(charVar3);
+        char charVar4 = 50;
         System.out.println(charVar4);
+        char poundDecimal = 163;
         System.out.println(poundDecimal);
+        char poundUnicode = '\u00A3';
         System.out.println(poundUnicode);
+        char smileyUnicode = '\u263A';
         System.out.println(smileyUnicode);
+        char newLine = '\n';
         System.out.println(newLine);
+        char backSlash = '\\';
         System.out.println(backSlash);
+
         System.out.println(newLine + backSlash); // 102
+        
         System.out.println(Character.isLowerCase(charVar2));
         char m = Character.toLowerCase(charVar2);
         System.out.println(m);
