@@ -112,7 +112,6 @@ public class PrimitiveDataTypes {
         System.out.println(backSlash);
 
         System.out.println(newLine + backSlash); // 102
-        
         System.out.println(Character.isLowerCase(charVar2));
         char m = Character.toLowerCase(charVar2);
         System.out.println(m);
