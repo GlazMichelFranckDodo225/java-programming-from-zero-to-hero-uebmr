@@ -62,6 +62,5 @@ public class TypeCasting {
         overflowIntNum = (int) overflowLongNum; // Narrowing Casting (Manually/Explicit)
         // Overflow Happened
         System.out.println(overflowIntNum); // -2147483648
-        
     }
 }
