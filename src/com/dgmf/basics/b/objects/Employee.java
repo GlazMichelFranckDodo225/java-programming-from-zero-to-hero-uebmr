@@ -6,6 +6,10 @@ public class Employee {
     byte age;
     char gender;
 
+    public Employee() {
+        System.out.println("Object is getting initialized ...");
+    }
+
     public byte getAge() {
         return age;
     }
