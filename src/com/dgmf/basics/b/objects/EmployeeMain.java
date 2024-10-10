@@ -4,13 +4,19 @@ public class EmployeeMain {
     public static void main(String[] args) {
         // Creation of an Employee Object with all the Default Values
         // Employee employee = new Employee();
-        Employee employee1 = new Employee();
-        Employee employee2 = new Employee();
+        /*Employee employee1 = new Employee();
+        Employee employee2 = new Employee();*/
         // Populate Employee Object's Fields
         /*employee.firstName = "John";
         employee.lastName = "Doe";
         employee.age = 30;
         employee.gender = 'M';*/
+        Employee employee1 = new Employee(
+                "Jhon", "Doe", (byte) 30, 'M'
+        );
+        Employee employee2 = new Employee(
+                "Mary", "Steve", (byte) 25, 'F'
+        );
         // Calling Non-static Methods of Employee Object
         // System.out.println(employee.getAge());
         // System.out.println(employee.getGender());
