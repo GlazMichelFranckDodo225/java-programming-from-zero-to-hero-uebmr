@@ -17,6 +17,7 @@ public class EmployeeMain {
         Employee employee2 = new Employee(
                 "Mary", "Steve", (byte) 25, 'F'
         );
+        Employee employee3 = new Employee();
         // Calling Non-static Methods of Employee Object
         // System.out.println(employee.getAge());
         // System.out.println(employee.getGender());
