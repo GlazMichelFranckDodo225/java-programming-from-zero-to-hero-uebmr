@@ -1,6 +1,6 @@
 package com.dgmf.basics.b.objects;
 
-public class carIIBkDemo {
+public class CarIIBkDemo {
     String model;
     String color;
     int horsePower;
@@ -8,11 +8,16 @@ public class carIIBkDemo {
     // Instance Initialization Block ==> Executed whenever an Object of
     // the is Instantiated
     {
-        this.model = "Camry";
-        this.color = "Black";
-        this.horsePower = 200;
-
         System.out.println("CarIIBkDemo Object is Being Created ...");
+    }
+
+    public CarIIBkDemo() {
+    }
+
+    public CarIIBkDemo(String model, String color, int horsePower) {
+        this.horsePower = horsePower;
+        this.color = color;
+        this.model = model;
     }
 
     public void startCar() {
